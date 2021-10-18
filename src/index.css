@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;500&display=swap');
+*{
+  font-family: 'Mulish', sans-serif;
+}
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color: #fe5a2f !important;
+}
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.menu_activity{
+  font-weight: bold;
+  border-bottom: 1px solid #fe5a2f;
+}
+
+.navbar a:hover{
+  color:#fe5a2f !important;
+}  
+
+.btn-get-started{
+  border:2px solid #fe5a2f;
+  border-radius: 50px;
+  text-decoration: none;
+  padding:10px;
+  font-weight: 800;
+  color:#fe5a2f;
+  transition: 0.5s;
+}
+.btn-get-started:hover{
+  color:white;
+  background-color:#fe5a2f ;
+}
+
+.brand-name{
+  color:#fe5a2f;
+}
+.animated{
+  height: 70%;
+  width: 100%;
+  transition: 1s;
+  animation: animated 1.5s linear infinite alternate-reverse;
+
+}
+
+.serviceButton{
+  border:2px solid #fe5a2f;
+  border-radius: 50px;
+  text-decoration: none;
+  padding:10px;
+  font-weight: 800;
+  color:#fe5a2f;
+  transition: 0.5s;
+}
+.serviceButton:hover{
+  color:white;
+  background-color:#fe5a2f ;
+}
+
+.cardstyle{
+   transition: 00.5s;
+}
+.cardstyle:hover{
+  box-shadow: 10px 10px 55px 5px rgba(0,0,0,0.6);
+-webkit-box-shadow: 10px 10px 55px 5px rgba(0,0,0,0.6);
+-moz-box-shadow: 10px 10px 55px 5px rgba(0,0,0,0.6);
+}
+
+label{
+  font-weight: 1000;
+  font-size: large;
+}
+
+@keyframes animated {
+  0%{ 
+    transform: translateY(20px);
+  }
+  100%{
+    transform: translateY(-20px);
+  }
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
